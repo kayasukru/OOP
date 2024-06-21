@@ -21,5 +21,8 @@ internal class Program
 
 
         new Triangle().Draw();
+
+        new Square().Calculate();
+
     }
 }
