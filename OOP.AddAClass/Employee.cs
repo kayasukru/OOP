@@ -30,5 +30,20 @@ namespace OOP.AddAClass
         }
 
         public int Age { get; set; }
+
+
+        // Varsayılan constructor. Parametre almayan constructor Mutlaka olmalı.
+        public Employee()
+        {
+            Console.WriteLine("Yapılandırıcı metod çalıştı.");
+        }
+
+        // overloading
+        public Employee(string firstName, string lastName, int age)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+        }
     }
 }
