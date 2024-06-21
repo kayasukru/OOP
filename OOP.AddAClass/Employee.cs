@@ -49,7 +49,10 @@ namespace OOP.AddAClass
         // override 
         public override string? ToString()
         {
-            return $"{FirstName} {LastName} {Age}";
+            // -20, 20 karakterlik alan ayırır sola hizalar
+            // -15, 15 karakterlik alan ayırı sola hizalar
+            // 5, 5 karakterlik alan ayırır sağa hizalar
+            return $"{FirstName,-20} {LastName,-15} ({Age,5})";
         }
 
     }
