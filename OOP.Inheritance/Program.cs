@@ -6,6 +6,39 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+
+        //Çokbiçimlilik-Polymorphism örneği
+        //CokBicimlilik_Polymorphism();
+
+
+        //inheritance-virtual keyword'e kadar
+        //VirtualMethod();
+
+
+    }
+
+    //Çokbiçimlilik-Polymorphism örneği
+    private static void CokBicimlilik_Polymorphism()
+    {
+        var shapes = new List<Shape>()
+        {
+            new Rectangle(),
+            new Circle(),
+            new Triangle(),
+            new Square()
+        };
+
+        foreach (var shape in shapes)
+        {
+            shape.Draw();
+        }
+
+        new Square().Calculate();
+    }
+
+    //inheritance-virtual keyword'e kadar
+    private static void VirtualMethod()
+    {
         var _s1 = new Rectangle();
         var _s2 = new Circle();
 
@@ -21,8 +54,5 @@ internal class Program
 
 
         new Triangle().Draw();
-
-        new Square().Calculate();
-
     }
 }

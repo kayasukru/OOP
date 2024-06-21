@@ -10,7 +10,7 @@ namespace OOP.Inheritance
     {
         new public void Calculate()
         {
-            System.Console.WriteLine("Calculated by Square...");
+            System.Console.WriteLine("Calculated by Square... ");
         }
 
     }
