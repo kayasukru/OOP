@@ -4,18 +4,47 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        // Sınıfa tek öğe veya belli bir aralıkta çoklu öğe ekleme
+        OgeEkleme_Tekli_Coklu();
+
         // standart sınıf yapısı ile kullanım
-        StandartSinifMetoduKullanimi();
+        //StandartSinifMetoduKullanimi();
 
         // Constructor ile kullanım
-        ConstructorKullanimi();
+        //ConstructorKullanimi();
 
         // Override (Employee sınıfında override işleminden sonra field ya da propperty yazmaya gerek yoktur.
-        ToStringIleCiktiBicimlendirme();
+        //ToStringIleCiktiBicimlendirme();
 
         // Dizi yapıları ile çıktı alma. Biçimlendirme Employee sınıfında ToString() metodu ile yapıldı.
-        DiziCiktilari();
+        //DiziCiktilari();
 
+    }
+
+    // Sınıfa tek öğe veya belli bir aralıkta çoklu öğe ekleme
+    private static void OgeEkleme_Tekli_Coklu()
+    {
+        //Sınıfa metod ekleyeme ve sınıfa tek öğe Add() veya grup öğe AddRange() ekleme
+        var employee = new Employee();
+
+        //tek öğe ekleme
+        employee.Add(new Employee("Mehmet", "Bayır", 65));
+
+        //grup öğe ekleme
+        employee.AddRange(
+            new Employee("Doğan", "Güneş", 23),
+            new Employee("Saffet", "Sefer", 12),
+            new Employee("Rıdvan", "Dilgen", 43),
+            new Employee("Çağrı", "Şen", 27)
+            );
+
+        //Örtülü değişken tanımı
+        var list = employee.GetEmployees();
+
+        foreach (var e in list)
+        {
+            Console.WriteLine(e); // Çıktı toString() metodu ile biçimlendirldi
+        }
     }
 
     // Dizi çıktıları
@@ -97,5 +126,6 @@ internal class Program
         employee.Age = 57;
         Console.WriteLine(employee.FirstName + " " + employee.LastName + " " + employee.Age);
         Console.WriteLine();
+
     }
 }
