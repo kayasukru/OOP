@@ -6,6 +6,16 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        //inheritance-virtual keyword'e kadar
+        //VirtualMethod();
+
+        new Square().Calculate();
+
+    }
+
+    //inheritance-virtual keyword'e kadar
+    private static void VirtualMethod()
+    {
         var _s1 = new Rectangle();
         var _s2 = new Circle();
 
@@ -21,8 +31,5 @@ internal class Program
 
 
         new Triangle().Draw();
-
-        new Square().Calculate();
-
     }
 }
