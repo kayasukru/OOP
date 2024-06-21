@@ -45,5 +45,12 @@ namespace OOP.AddAClass
             this.LastName = lastName;
             this.Age = age;
         }
+
+        // override 
+        public override string? ToString()
+        {
+            return $"{FirstName} {LastName} {Age}";
+        }
+
     }
 }

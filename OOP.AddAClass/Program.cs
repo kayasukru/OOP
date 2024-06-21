@@ -16,7 +16,11 @@ internal class Program
 
         Console.WriteLine("-------- Constructor ile kullanım ---------");
         // Constructor ile kullanım
-        Employee employee2 = new Employee("Bilge", "Kaya", 23);
+        Employee employee2 = new Employee("Bilge Seva", "Kaya", 23);
         Console.WriteLine($"{employee2.FirstName} {employee2.LastName} {employee2.Age}");
+
+        // Override (Employee sınıfında override işleminden sonra field ya da propperty yazmaya gerek yoktur.
+        Employee employee3 = new Employee("Betül Sena", "Kaya", 25);
+        Console.WriteLine(employee3);
     }
 }
