@@ -6,6 +6,15 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        var s1 = new Rectangle(10, 20);
+        Console.WriteLine("{0}, {1}", s1.X, s1.Y);
+
+        var s2 = new Circle(25, 35);
+        Console.WriteLine("{0}, {1}", s2.X, s2.Y);
+
+        var s3 = new Square(45, 55);
+        Console.WriteLine("{0}, {1}", s3.X, s3.Y);
+
 
         //Çokbiçimlilik-Polymorphism örneği
         //CokBicimlilik_Polymorphism();
