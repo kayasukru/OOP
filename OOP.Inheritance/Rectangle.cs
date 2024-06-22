@@ -10,7 +10,9 @@ namespace OOP.Inheritance
     //mühürlenen sınıftan sınıf türetilemez.
     // Non Inheritance
     // Derleme hatası verir
-    public sealed class Rectangle : Shape
+    
+    //public sealed class Rectangle : Shape
+    public class Rectangle : Shape
     {
         public Rectangle()
         {
@@ -24,7 +26,9 @@ namespace OOP.Inheritance
         //mühürlenen metoddan metod türetilemez
         //Non Inheritance
         //Derleme hatası verir
-        public sealed override void Draw()
+
+        //public sealed override void Draw()
+        public override void Draw()
         {
             Console.WriteLine("Rectangle drawing task...");
             //base.Draw();
