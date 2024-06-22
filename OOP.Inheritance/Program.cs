@@ -8,7 +8,7 @@ internal class Program
     {
 
         //Çokbiçimlilik-Polymorphism örneği
-        //CokBicimlilik_Polymorphism();
+        CokBicimlilik_Polymorphism();
 
 
         //inheritance-virtual keyword'e kadar
