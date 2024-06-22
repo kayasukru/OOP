@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OOP.Inheritance
 {
-    public class Rectangle : Shape
+    //sealed kavramı sınıfı mühürler.
+    //mühürlenen sınıftan sınıf türetilemez.
+    // Non Inheritance
+    // Derleme hatası verir
+    public sealed class Rectangle : Shape
     {
         public Rectangle()
         {
@@ -16,7 +20,11 @@ namespace OOP.Inheritance
         public Rectangle(int x, int y) : base(x, y)
         {
         }
-        public override void Draw()
+        //sealed kavramı metodu mühürler
+        //mühürlenen metoddan metod türetilemez
+        //Non Inheritance
+        //Derleme hatası verir
+        public sealed override void Draw()
         {
             Console.WriteLine("Rectangle drawing task...");
             //base.Draw();
