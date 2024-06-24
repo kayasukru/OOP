@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Inheritance", "OOP.Inhe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.AbstractClasesAndMethods", "OOP.AbstractClasesAndMethods\OOP.AbstractClasesAndMethods.csproj", "{E51F156C-61CA-460A-9002-1E16813EA0B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interfaces", "OOP.Interfaces\OOP.Interfaces.csproj", "{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
