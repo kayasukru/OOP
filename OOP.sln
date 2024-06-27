@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.AddAClass", "OOP.AddAClass\OOP.AddAClass.csproj", "{CF267BB1-6BC8-4D1C-AE64-6D3FD83808AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Inheritance", "OOP.Inheritance\OOP.Inheritance.csproj", "{5B2F4FC6-40CC-4A4E-9A40-5DB0A84BDE6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.AbstractClasesAndMethods", "OOP.AbstractClasesAndMethods\OOP.AbstractClasesAndMethods.csproj", "{E51F156C-61CA-460A-9002-1E16813EA0B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interfaces", "OOP.Interfaces\OOP.Interfaces.csproj", "{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interfaces.IFormattables", "OOP.Interfaces.IFormattable\OOP.Interfaces.IFormattables.csproj", "{5EF66164-8324-43C7-A6A7-0E0C3F7A46B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface.ICloneables_App", "OOP.Interface.ICloneables_App\OOP.Interface.ICloneables_App.csproj", "{45D132D4-A948-4F88-A5B6-302DEB3C6387}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF267BB1-6BC8-4D1C-AE64-6D3FD83808AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF267BB1-6BC8-4D1C-AE64-6D3FD83808AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF267BB1-6BC8-4D1C-AE64-6D3FD83808AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF267BB1-6BC8-4D1C-AE64-6D3FD83808AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B2F4FC6-40CC-4A4E-9A40-5DB0A84BDE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2F4FC6-40CC-4A4E-9A40-5DB0A84BDE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2F4FC6-40CC-4A4E-9A40-5DB0A84BDE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2F4FC6-40CC-4A4E-9A40-5DB0A84BDE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51F156C-61CA-460A-9002-1E16813EA0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C3AAEA-8AA6-41CC-BD59-9D062E64D76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF66164-8324-43C7-A6A7-0E0C3F7A46B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF66164-8324-43C7-A6A7-0E0C3F7A46B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF66164-8324-43C7-A6A7-0E0C3F7A46B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF66164-8324-43C7-A6A7-0E0C3F7A46B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D132D4-A948-4F88-A5B6-302DEB3C6387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D132D4-A948-4F88-A5B6-302DEB3C6387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D132D4-A948-4F88-A5B6-302DEB3C6387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D132D4-A948-4F88-A5B6-302DEB3C6387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
