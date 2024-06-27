@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP.Interface_IComparable_App
+namespace OOP.Interface_IComparable
 {
     public class Employee : IComparable
     {
@@ -15,9 +15,9 @@ namespace OOP.Interface_IComparable_App
         public int CompareTo(object? obj)
         {
             var other = (Employee)obj;
-            if (this.Salary <other.Salary) 
+            if (this.Salary < other.Salary)
                 return -1;
-            else if(this.Salary.Equals(other.Salary))
+            else if (this.Salary.Equals(other.Salary))
                 return 0;
             else
                 return 1;
@@ -27,7 +27,7 @@ namespace OOP.Interface_IComparable_App
         //Çıktıyı biçimlendirir
         public override string ToString()
         {
-            return $"{Id, -5} {FullName, -25} {Salary, -7}";
+            return $"{Id,-5} {FullName,-25} {Salary,-7}";
         }
     }
 }

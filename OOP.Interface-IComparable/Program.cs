@@ -1,4 +1,4 @@
-﻿using OOP.Interface_IComparable_App;
+﻿using OOP.Interface_IComparable;
 
 internal class Program
 {
@@ -51,6 +51,5 @@ internal class Program
         {
             Console.WriteLine(employee);
         }
-        Console.WriteLine();
     }
 }
