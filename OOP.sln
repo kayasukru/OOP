@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-GetEnumerate_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-IEnumerable_App", "OOP.Interface-IEnumerable_App\OOP.Interface-IEnumerable_App.csproj", "{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-LooselyCoupled", "OOP.Interface-LooselyCoupled\OOP.Interface-LooselyCoupled.csproj", "{D864A355-AD44-400A-8200-1DCF5E3AE24C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
