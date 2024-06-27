@@ -29,7 +29,8 @@ namespace OOP.Interface_IEnumerable_App
 
         public IEnumerator GetEnumerator()
         {
-            return InnerList.Take(index).GetEnumerator();
+            return new DiziEnumerator(InnerList);
+            //return InnerList.Take(index).GetEnumerator();
         }
     }
 }
