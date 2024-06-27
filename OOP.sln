@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-IComparable",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-IComparable_T", "OOP.Interface-IComparable_T\OOP.Interface-IComparable_T.csproj", "{821C163F-26AA-41FF-A458-782976A95651}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-GetEnumerate_App", "OOP.Interface-GetEnumerate_App\OOP.Interface-GetEnumerate_App.csproj", "{218E349F-AFA8-4BBD-81AE-7998D345A7A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-GetEnumerate_App", "OOP.Interface-GetEnumerate_App\OOP.Interface-GetEnumerate_App.csproj", "{218E349F-AFA8-4BBD-81AE-7998D345A7A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-IEnumerable_App", "OOP.Interface-IEnumerable_App\OOP.Interface-IEnumerable_App.csproj", "{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{218E349F-AFA8-4BBD-81AE-7998D345A7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218E349F-AFA8-4BBD-81AE-7998D345A7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218E349F-AFA8-4BBD-81AE-7998D345A7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
