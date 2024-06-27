@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-IEnumerable_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-LooselyCoupled", "OOP.Interface-LooselyCoupled\OOP.Interface-LooselyCoupled.csproj", "{D864A355-AD44-400A-8200-1DCF5E3AE24C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-Segregation", "OOP.Interface-Segregation\OOP.Interface-Segregation.csproj", "{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D864A355-AD44-400A-8200-1DCF5E3AE24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
