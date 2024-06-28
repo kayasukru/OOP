@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-Segregation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Generic-DiziApp", "OOP.Generic-DiziApp\OOP.Generic-DiziApp.csproj", "{CEDD7498-311A-4B2F-8806-862B0F897A2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericAndNonGeneric", "OOP.GenericAndNonGeneric\OOP.GenericAndNonGeneric.csproj", "{45A36425-5CA5-4783-91F9-95F245502805}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{CEDD7498-311A-4B2F-8806-862B0F897A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEDD7498-311A-4B2F-8806-862B0F897A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEDD7498-311A-4B2F-8806-862B0F897A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A36425-5CA5-4783-91F9-95F245502805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A36425-5CA5-4783-91F9-95F245502805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A36425-5CA5-4783-91F9-95F245502805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A36425-5CA5-4783-91F9-95F245502805}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
