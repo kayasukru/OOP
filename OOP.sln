@@ -21,21 +21,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-IComparable_T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-GetEnumerate_App", "OOP.Interface-GetEnumerate_App\OOP.Interface-GetEnumerate_App.csproj", "{218E349F-AFA8-4BBD-81AE-7998D345A7A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-IEnumerable_App", "OOP.Interface-IEnumerable_App\OOP.Interface-IEnumerable_App.csproj", "{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-IEnumerable_App", "OOP.Interface-IEnumerable_App\OOP.Interface-IEnumerable_App.csproj", "{FEF3AB18-2F69-44A0-BCAD-FAD72464FE5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-LooselyCoupled", "OOP.Interface-LooselyCoupled\OOP.Interface-LooselyCoupled.csproj", "{D864A355-AD44-400A-8200-1DCF5E3AE24C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-LooselyCoupled", "OOP.Interface-LooselyCoupled\OOP.Interface-LooselyCoupled.csproj", "{D864A355-AD44-400A-8200-1DCF5E3AE24C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Interface-Segregation", "OOP.Interface-Segregation\OOP.Interface-Segregation.csproj", "{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Interface-Segregation", "OOP.Interface-Segregation\OOP.Interface-Segregation.csproj", "{18F8E52E-B08C-46E1-B4A3-720BDB5345EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.Generic-DiziApp", "OOP.Generic-DiziApp\OOP.Generic-DiziApp.csproj", "{CEDD7498-311A-4B2F-8806-862B0F897A2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.Generic-DiziApp", "OOP.Generic-DiziApp\OOP.Generic-DiziApp.csproj", "{CEDD7498-311A-4B2F-8806-862B0F897A2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericAndNonGeneric", "OOP.GenericAndNonGeneric\OOP.GenericAndNonGeneric.csproj", "{45A36425-5CA5-4783-91F9-95F245502805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.GenericAndNonGeneric", "OOP.GenericAndNonGeneric\OOP.GenericAndNonGeneric.csproj", "{45A36425-5CA5-4783-91F9-95F245502805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericCollection", "OOP.GenericCollection\OOP.GenericCollection.csproj", "{59C513FB-7427-48E9-B236-26A7963483D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.GenericCollection", "OOP.GenericCollection\OOP.GenericCollection.csproj", "{59C513FB-7427-48E9-B236-26A7963483D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericAndStruct", "OOP.GenericAndStruct\OOP.GenericAndStruct.csproj", "{B7893AF0-4FF3-463C-99C9-620F4B15FAA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.GenericAndStruct", "OOP.GenericAndStruct\OOP.GenericAndStruct.csproj", "{B7893AF0-4FF3-463C-99C9-620F4B15FAA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericConstraints", "OOP.GenericConstraints\OOP.GenericConstraints.csproj", "{F9AC497F-C0BA-4E35-B6DB-37C6CA478988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP.GenericConstraints", "OOP.GenericConstraints\OOP.GenericConstraints.csproj", "{F9AC497F-C0BA-4E35-B6DB-37C6CA478988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP.GenericRepositoryDesignPattern", "OOP.GenericRepositoryDesignPattern\OOP.GenericRepositoryDesignPattern.csproj", "{AEA9B127-49DF-401C-8C86-171A0493B682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{F9AC497F-C0BA-4E35-B6DB-37C6CA478988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AC497F-C0BA-4E35-B6DB-37C6CA478988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AC497F-C0BA-4E35-B6DB-37C6CA478988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA9B127-49DF-401C-8C86-171A0493B682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA9B127-49DF-401C-8C86-171A0493B682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA9B127-49DF-401C-8C86-171A0493B682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA9B127-49DF-401C-8C86-171A0493B682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
