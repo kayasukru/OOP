@@ -16,7 +16,7 @@ internal class Program
         conn.Open();
 
         //Command
-        var cmd = new SqlCommand("SELECT EmployeeID, FirstName, LastName FROM Employees", conn);
+        var cmd = new SqlCommand("SELECT EmployeeID, FirstName, LastName FROM Employees", conn); 
 
         // Data Reader
         var reader = cmd.ExecuteReader();
